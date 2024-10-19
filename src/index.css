@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.slider-img{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+.cardImg{
+
+  width: 90%;
+  height: 18rem !important;
+  transition: width 1s;
+}
+
+.cardImg:hover{
+width:100%
+}
+.kard{
+  height: 30rem !important
+}
+
+
+.btnCustom{
+bottom: 5px;
+left: 10px;
+}
+
+.detailsImg{
+  transition: transform 2s;
+}
+
+.detailsImg:hover{
+  transform: rotate(2deg) scale(1.2);
+}
